@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <TargetPlatformMoniker>Windows,Version=7.0</TargetPlatformMoniker>
+    <TargetPlatformDisplayName>Windows</TargetPlatformDisplayName>
+    <StartupObject>Qiban.DesktopTests.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup><ProjectReference Include="../../src/Qiban.Desktop/Qiban.Desktop.csproj" /></ItemGroup>
+</Project>

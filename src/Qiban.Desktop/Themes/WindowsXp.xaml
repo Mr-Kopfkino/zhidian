@@ -1,0 +1,156 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=System.Runtime">
+    <SolidColorBrush x:Key="TextBrush" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="MutedBrush" Color="#EDF2FF"/>
+    <SolidColorBrush x:Key="LineBrush" Color="#8DA4EA"/>
+    <SolidColorBrush x:Key="SurfaceBrush" Color="#4D66C4"/>
+    <SolidColorBrush x:Key="PageBrush" Color="#526DCE"/>
+    <SolidColorBrush x:Key="FrameBrush" Color="#0054E3"/>
+    <SolidColorBrush x:Key="InactiveFrameBrush" Color="#7A96DF"/>
+    <LinearGradientBrush x:Key="InactiveCaptionBrush" StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Color="#A5BDEB" Offset="0"/>
+        <GradientStop Color="#7294D5" Offset="0.5"/>
+        <GradientStop Color="#6883BB" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="CaptionTextBrush" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="CaptionButtonBorderBrush" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="CaptionHoverBrush" Color="#7FAEFF"/>
+    <SolidColorBrush x:Key="CaptionPressedBrush" Color="#1244A5"/>
+    <SolidColorBrush x:Key="CaptionFocusBrush" Color="#FFF0B4"/>
+    <SolidColorBrush x:Key="CloseHoverBrush" Color="#F7A083"/>
+    <SolidColorBrush x:Key="ClosePressedBrush" Color="#A63B20"/>
+    <SolidColorBrush x:Key="CloseFocusBrush" Color="#FFF0B4"/>
+    <SolidColorBrush x:Key="ButtonHighlightBrush" Color="#E6FFFFFF"/>
+    <SolidColorBrush x:Key="FocusBrush" Color="#E8A52C"/>
+    <SolidColorBrush x:Key="DangerBrush" Color="#A03123"/>
+    <SolidColorBrush x:Key="DangerBorderBrush" Color="#C78678"/>
+    <SolidColorBrush x:Key="NavTextBrush" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="NavSelectedBrush" Color="#2363D8"/>
+    <SolidColorBrush x:Key="FieldBrush" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="FieldBorderBrush" Color="#7F9DB9"/>
+    <SolidColorBrush x:Key="SelectionBrush" Color="#A7C6F5"/>
+    <SolidColorBrush x:Key="FieldFocusBrush" Color="#316AC5"/>
+    <SolidColorBrush x:Key="TabSelectedBrush" Color="#224AA8"/>
+    <SolidColorBrush x:Key="TabSelectedTextBrush" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="TabAccentBrush" Color="#FFC73C"/>
+    <SolidColorBrush x:Key="ItemSelectedBrush" Color="#254DAE"/>
+    <SolidColorBrush x:Key="ItemSelectedBorderBrush" Color="#BCD3FF"/>
+    <SolidColorBrush x:Key="ItemHoverBrush" Color="#355BBC"/>
+    <SolidColorBrush x:Key="SidebarBrush" Color="#4561BA"/>
+    <SolidColorBrush x:Key="AvatarBrush" Color="#D4E4FA"/>
+    <SolidColorBrush x:Key="AvatarTextBrush" Color="#2356A7"/>
+    <SolidColorBrush x:Key="ChatBrush" Color="#526DCE"/>
+    <SolidColorBrush x:Key="PortraitBrush" Color="#4561BA"/>
+    <SolidColorBrush x:Key="UserBubbleBrush" Color="#D9E8FF"/>
+    <SolidColorBrush x:Key="AssistantBubbleBrush" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="BubbleTextBrush" Color="#182D4B"/>
+    <SolidColorBrush x:Key="BubbleBorderBrush" Color="#93B0D9"/>
+    <SolidColorBrush x:Key="ChatCaptionBrush" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="ChatTimeBrush" Color="#F0F4FF"/>
+    <SolidColorBrush x:Key="NoticeBrush" Color="#24479F"/>
+    <SolidColorBrush x:Key="MemoryPendingBrush" Color="#FFF1AE"/>
+    <SolidColorBrush x:Key="MemoryApprovedBrush" Color="#BFF4CE"/>
+    <!-- Adapted from XP.css (MIT), themes/XP/_window.scss. -->
+    <LinearGradientBrush x:Key="CaptionBrush" StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Color="#0997FF" Offset="0"/>
+        <GradientStop Color="#0053EE" Offset="0.08"/>
+        <GradientStop Color="#0050EE" Offset="0.40"/>
+        <GradientStop Color="#0066FF" Offset="0.88"/>
+        <GradientStop Color="#0066FF" Offset="0.93"/>
+        <GradientStop Color="#005BFF" Offset="0.95"/>
+        <GradientStop Color="#003DD7" Offset="0.96"/>
+        <GradientStop Color="#003DD7" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="NavBrush" StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Color="#2352BC" Offset="0.000"/>
+        <GradientStop Color="#123780" Offset="1.000"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="CaptionButtonBrush" StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Color="#A1C4FF" Offset="0.000"/>
+        <GradientStop Color="#4085F2" Offset="0.500"/>
+        <GradientStop Color="#1C59C0" Offset="1.000"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="CloseBrush" StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Color="#F6B59F" Offset="0.000"/>
+        <GradientStop Color="#E5663D" Offset="0.500"/>
+        <GradientStop Color="#C84222" Offset="1.000"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="ButtonBrush" StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Color="#FFFFFF" Offset="0.000"/>
+        <GradientStop Color="#F7F5ED" Offset="0.500"/>
+        <GradientStop Color="#E4DFCC" Offset="1.000"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="AccentBrush" StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Color="#80BD6C" Offset="0.000"/>
+        <GradientStop Color="#3B9630" Offset="0.500"/>
+        <GradientStop Color="#277822" Offset="1.000"/>
+    </LinearGradientBrush>
+    <CornerRadius x:Key="ControlCornerRadius">3</CornerRadius>
+    <CornerRadius x:Key="FieldCornerRadius">3</CornerRadius>
+    <CornerRadius x:Key="CardCornerRadius">3</CornerRadius>
+    <CornerRadius x:Key="ItemCornerRadius">3</CornerRadius>
+    <CornerRadius x:Key="AvatarCornerRadius">3</CornerRadius>
+    <CornerRadius x:Key="ChatBubbleCornerRadius">3</CornerRadius>
+    <CornerRadius x:Key="CaptionCornerRadius">3</CornerRadius>
+    <CornerRadius x:Key="TabCornerRadius">3</CornerRadius>
+    <Thickness x:Key="BubbleBorderThickness">1</Thickness>
+    <Thickness x:Key="ButtonHighlightThickness">1</Thickness>
+    <Thickness x:Key="TabAccentThickness">0,3,0,0</Thickness>
+    <FontFamily x:Key="InterfaceFont">Tahoma, Microsoft YaHei UI</FontFamily>
+    <Style TargetType="ComboBox" BasedOn="{StaticResource ComboBoxBase}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ComboBox">
+                    <Grid>
+                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="1" CornerRadius="3"/>
+                        <ToggleButton x:Name="DropDownButton" Focusable="False" ClickMode="Press"
+                                      IsChecked="{Binding IsDropDownOpen, RelativeSource={RelativeSource TemplatedParent}, Mode=TwoWay}">
+                            <ToggleButton.Template>
+                                <ControlTemplate TargetType="ToggleButton">
+                                    <Grid Background="Transparent">
+                                        <Border x:Name="ArrowBorder" HorizontalAlignment="Right" Width="24" Margin="2" CornerRadius="2"
+                                                Background="{DynamicResource CaptionButtonBrush}" BorderBrush="{DynamicResource FieldBorderBrush}" BorderThickness="1">
+                                            <Path Data="M 0 0 L 4 4 L 8 0" Stroke="White" StrokeThickness="1.5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                    </Grid>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True"><Setter TargetName="ArrowBorder" Property="BorderBrush" Value="{DynamicResource FocusBrush}"/></Trigger>
+                                        <Trigger Property="IsPressed" Value="True"><Setter TargetName="ArrowBorder" Property="Background" Value="{DynamicResource CaptionPressedBrush}"/></Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </ToggleButton.Template>
+                        </ToggleButton>
+                        <ContentPresenter x:Name="SelectionPresenter" IsHitTestVisible="False" Margin="10,5,32,5" VerticalAlignment="Center"
+                                          Content="{TemplateBinding SelectionBoxItem}" ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}" ContentTemplateSelector="{TemplateBinding ItemTemplateSelector}"/>
+                        <TextBox x:Name="PART_EditableTextBox" Visibility="Hidden" Margin="2,1,29,1" Padding="8,4" Background="Transparent" BorderThickness="0"
+                                 VerticalContentAlignment="Center" IsReadOnly="{TemplateBinding IsReadOnly}">
+                            <TextBox.Template><ControlTemplate TargetType="TextBox"><ScrollViewer x:Name="PART_ContentHost"/></ControlTemplate></TextBox.Template>
+                        </TextBox>
+                        <Popup x:Name="PART_Popup" IsOpen="{TemplateBinding IsDropDownOpen}" Placement="Bottom" AllowsTransparency="True" Focusable="False">
+                            <Border Background="{DynamicResource FieldBrush}" BorderBrush="{DynamicResource FieldBorderBrush}" BorderThickness="1"
+                                    MinWidth="{Binding ActualWidth, RelativeSource={RelativeSource TemplatedParent}}" MaxHeight="{TemplateBinding MaxDropDownHeight}">
+                                <ScrollViewer CanContentScroll="True" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                                    <ItemsPresenter KeyboardNavigation.DirectionalNavigation="Contained"/>
+                                </ScrollViewer>
+                            </Border>
+                        </Popup>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsEditable" Value="True">
+                            <Setter TargetName="PART_EditableTextBox" Property="Visibility" Value="Visible"/>
+                            <Setter TargetName="SelectionPresenter" Property="Visibility" Value="Hidden"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False"><Setter Property="Opacity" Value="0.5"/></Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <SolidColorBrush x:Key="FieldTextBrush" Color="#172B46"/>
+    <SolidColorBrush x:Key="ButtonTextBrush" Color="#172B46"/>
+    <Thickness x:Key="WindowFrameThickness">3</Thickness>
+    <GridLength x:Key="CaptionHeight">32</GridLength>
+    <sys:Double x:Key="CaptionButtonWidth">28</sys:Double>
+    <sys:Double x:Key="CaptionButtonHeight">24</sys:Double>
+</ResourceDictionary>

@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-11-07T11:04:05+00:00",
+  "hardware": {
+    "platform": "Windows x64",
+    "cpu": "13th Gen Intel Core i7-13700H",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "gpuMemoryGiB": 8
+  },
+  "engine": {
+    "upstreamCommit": "04a44eb977586645f33594b72af13a035a2056c6",
+    "python": "3.11",
+    "torch": "2.6.0+cu124",
+    "transport": "private stdio JSONL",
+    "httpService": false,
+    "networkAccess": "disabled during inference"
+  },
+  "validation": {
+    "sequentialSingleWorker": true,
+    "windowsJobObject": true,
+    "pythonWritesRestrictedToSession": true,
+    "audioSizeLimitBytes": 33554432,
+    "waveChecks": [
+      "complete PCM payload",
+      "valid sample rate",
+      "mono PCM16",
+      "nonzero signal"
+    ],
+    "privateInputsIncluded": false,
+    "engineSourceChangedDuringTheseRuns": false
+  },
+  "runs": [
+    {
+      "modelVersion": "v2ProPlus",
+      "weightsVariant": "configured_trained_voice",
+      "device": "cuda",
+      "precision": "float16",
+      "passed": true,
+      "loadElapsedSeconds": 15.92,
+      "outputs": [
+        {
+          "language": "zh",
+          "passed": true,
+          "sampleRateHz": 32000,
+          "channels": 1,
+          "pcmBits": 16,
+          "durationSeconds": 4.18,
+          "bytes": 267564,
+          "peakPcm16": 12432,
+          "completePcmPayload": true,
+          "nonSilent": true,
+          "synthesisElapsedSeconds": 6.23
+        },
+        {
+          "language": "ja",
+          "passed": true,
+          "sampleRateHz": 32000,
+          "channels": 1,
+          "pcmBits": 16,
+          "durationSeconds": 4.36,
+          "bytes": 279084,
+          "peakPcm16": 14568,
+          "completePcmPayload": true,
+          "nonSilent": true,
+          "synthesisElapsedSeconds": 1.36
+        }
+      ]
+    },
+    {
+      "modelVersion": "v2ProPlus",
+      "weightsVariant": "configured_trained_voice",
+      "device": "cpu",
+      "precision": "float32",
+      "passed": true,
+      "loadElapsedSeconds": 17.74,
+      "outputs": [
+        {
+          "language": "zh",
+          "passed": true,
+          "sampleRateHz": 32000,
+          "channels": 1,
+          "pcmBits": 16,
+          "durationSeconds": 4.3,
+          "bytes": 275244,
+          "peakPcm16": 11216,
+          "completePcmPayload": true,
+          "nonSilent": true,
+          "synthesisElapsedSeconds": 7.12
+        },
+        {
+          "language": "ja",
+          "passed": true,
+          "sampleRateHz": 32000,
+          "channels": 1,
+          "pcmBits": 16,
+          "durationSeconds": 4.84,
+          "bytes": 309804,
+          "peakPcm16": 15234,
+          "completePcmPayload": true,
+          "nonSilent": true,
+          "synthesisElapsedSeconds": 5.26
+        }
+      ]
+    },
+    {
+      "modelVersion": "v3",
+      "weightsVariant": "bundled_official_sovits_base_with_configured_gpt",
+      "device": "cuda",
+      "precision": "float16",
+      "passed": true,
+      "wholeRunElapsedSeconds": 29.39,
+      "outputs": [
+        {
+          "language": "zh",
+          "passed": true,
+          "sampleRateHz": 24000,
+          "channels": 1,
+          "pcmBits": 16,
+          "durationSeconds": 4.677,
+          "bytes": 224556,
+          "peakPcm16": 12376,
+          "completePcmPayload": true,
+          "nonSilent": true
+        }
+      ]
+    },
+    {
+      "modelVersion": "v4",
+      "weightsVariant": "bundled_official_sovits_base_with_configured_gpt",
+      "device": "cuda",
+      "precision": "float16",
+      "passed": true,
+      "wholeRunElapsedSeconds": 24.41,
+      "outputs": [
+        {
+          "language": "zh",
+          "passed": true,
+          "sampleRateHz": 48000,
+          "channels": 1,
+          "pcmBits": 16,
+          "durationSeconds": 3.6,
+          "bytes": 345644,
+          "peakPcm16": 9344,
+          "completePcmPayload": true,
+          "nonSilent": true
+        }
+      ]
+    },
+    {
+      "modelVersion": "v5dev",
+      "weightsVariant": "bundled_official_sovits_base_with_configured_gpt",
+      "device": "cuda",
+      "precision": "float16",
+      "passed": true,
+      "wholeRunElapsedSeconds": 24.85,
+      "outputs": [
+        {
+          "language": "zh",
+          "passed": true,
+          "sampleRateHz": 48000,
+          "channels": 1,
+          "pcmBits": 16,
+          "durationSeconds": 4.08,
+          "bytes": 391724,
+          "peakPcm16": 11376,
+          "completePcmPayload": true,
+          "nonSilent": true
+        }
+      ]
+    },
+    {
+      "modelVersion": "v5turbo",
+      "weightsVariant": "bundled_official_sovits_base_with_configured_gpt",
+      "device": "cuda",
+      "precision": "float16",
+      "passed": true,
+      "wholeRunElapsedSeconds": 22.97,
+      "outputs": [
+        {
+          "language": "zh",
+          "passed": true,
+          "sampleRateHz": 48000,
+          "channels": 1,
+          "pcmBits": 16,
+          "durationSeconds": 3.72,
+          "bytes": 357164,
+          "peakPcm16": 12208,
+          "completePcmPayload": true,
+          "nonSilent": true
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "v3, v4, v5dev and v5turbo runs validate bundled base-model and vocoder inference resources; they do not prove compatibility with arbitrary trained LoRA checkpoints.",
+    "Japanese and CPU inference were verified with the configured v2ProPlus voice. The four newer base models were verified with Chinese GPU inference only.",
+    "No inference results are asserted for v1, plain v2, v2Pro, or additional languages.",
+    "Elapsed times are observed on this machine, include first-use initialization as applicable, and are not a general performance guarantee."
+  ]
+}

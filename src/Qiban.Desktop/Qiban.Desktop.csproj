@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <TargetPlatformMoniker>Windows,Version=7.0</TargetPlatformMoniker>
+    <TargetPlatformDisplayName>Windows</TargetPlatformDisplayName>
+    <StartupObject>Qiban.Desktop.Boot</StartupObject>
+    <AssemblyName>Zhidian</AssemblyName>
+    <AssemblyTitle>致电</AssemblyTitle>
+    <Product>致电</Product>
+    <Description>可以由你定义的桌面电子朋友</Description>
+    <Version>2.2.0</Version>
+    <DebugType>none</DebugType>
+    <SatelliteResourceLanguages>zh-Hans</SatelliteResourceLanguages>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets/qiban.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup><ProjectReference Include="../Qiban.Core/Qiban.Core.csproj" /></ItemGroup>
+  <ItemGroup><Resource Include="Assets/qiban.ico" /></ItemGroup>
+  <ItemGroup><Content Include="../../licenses/XP.css-LICENSE.txt" Link="licenses/XP.css-LICENSE.txt" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" /></ItemGroup>
+  <ItemGroup><Content Include="VoiceEngine/*.py" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" /></ItemGroup>
+</Project>

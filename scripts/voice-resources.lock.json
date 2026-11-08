@@ -1,0 +1,122 @@
+[
+  {
+    "path": "GPT_SoVITS/pretrained_models/chinese-hubert-base/config.json",
+    "size": 1449,
+    "sha256": "c3e5060a1277e0f078cc6be9da4528a605dba6ece93018981fe2c820e5c7b103",
+    "url": "https://huggingface.co/lj1995/GPT-SoVITS/resolve/8f8857563c040d542de108a2c18b0425abd6c9c5/chinese-hubert-base/config.json"
+  },
+  {
+    "path": "GPT_SoVITS/pretrained_models/chinese-hubert-base/preprocessor_config.json",
+    "size": 212,
+    "sha256": "dcd684124d06722947939d41ea6ae58dbf10968c60a11a29f23ddc602c64a29b",
+    "url": "https://huggingface.co/lj1995/GPT-SoVITS/resolve/8f8857563c040d542de108a2c18b0425abd6c9c5/chinese-hubert-base/preprocessor_config.json"
+  },
+  {
+    "path": "GPT_SoVITS/pretrained_models/chinese-hubert-base/pytorch_model.bin",
+    "size": 188811417,
+    "sha256": "24164f129c66499d1346e2aa55f183250c223161ec2770c0da3d3b08cf432d3c",
+    "url": "https://huggingface.co/lj1995/GPT-SoVITS/resolve/8f8857563c040d542de108a2c18b0425abd6c9c5/chinese-hubert-base/pytorch_model.bin"
+  },
+  {
+    "path": "GPT_SoVITS/pretrained_models/chinese-roberta-wwm-ext-large/config.json",
+    "size": 963,
+    "sha256": "3d57de2fd7e80d0e5c8ff194f0bbb6baa10df7e43fc262a0cc71298a78b0a3e5",
+    "url": "https://huggingface.co/lj1995/GPT-SoVITS/resolve/8f8857563c040d542de108a2c18b0425abd6c9c5/chinese-roberta-wwm-ext-large/config.json"
+  },
+  {
+    "path": "GPT_SoVITS/pretrained_models/chinese-roberta-wwm-ext-large/tokenizer.json",
+    "size": 268962,
+    "sha256": "173796956820ea27bd14f76bf28162607ff4254807e2948253eb5b46f5bb643b",
+    "url": "https://huggingface.co/lj1995/GPT-SoVITS/resolve/8f8857563c040d542de108a2c18b0425abd6c9c5/chinese-roberta-wwm-ext-large/tokenizer.json"
+  },
+  {
+    "path": "GPT_SoVITS/pretrained_models/chinese-roberta-wwm-ext-large/pytorch_model.bin",
+    "size": 651225145,
+    "sha256": "e53a693acc59ace251d143d068096ae0d7b79e4b1b503fa84c9dcf576448c1d8",
+    "url": "https://huggingface.co/lj1995/GPT-SoVITS/resolve/8f8857563c040d542de108a2c18b0425abd6c9c5/chinese-roberta-wwm-ext-large/pytorch_model.bin"
+  },
+  {
+    "path": "GPT_SoVITS/pretrained_models/sv/pretrained_eres2netv2w24s4ep4.ckpt",
+    "size": 107528697,
+    "sha256": "4f5a0bf73c61eb41b174e1bb54e7ee3c83233892be8e0af1f187024e8e581a35",
+    "url": "https://huggingface.co/lj1995/GPT-SoVITS/resolve/8f8857563c040d542de108a2c18b0425abd6c9c5/sv/pretrained_eres2netv2w24s4ep4.ckpt"
+  },
+  {
+    "path": "GPT_SoVITS/pretrained_models/s2Gv3.pth",
+    "size": 769035145,
+    "sha256": "f33abb1920076d988e1711d5f41b5c9c6d7f92575b4acf0ad4fae6a4ebf0cf19",
+    "url": "https://huggingface.co/lj1995/GPT-SoVITS/resolve/8f8857563c040d542de108a2c18b0425abd6c9c5/s2Gv3.pth"
+  },
+  {
+    "path": "GPT_SoVITS/pretrained_models/gsv-v4-pretrained/s2Gv4.pth",
+    "size": 769025545,
+    "sha256": "906fe22f48c3e037a389df291d4d32a9414e15dbb8f9628643e83aaced109ea4",
+    "url": "https://huggingface.co/lj1995/GPT-SoVITS/resolve/8f8857563c040d542de108a2c18b0425abd6c9c5/gsv-v4-pretrained/s2Gv4.pth"
+  },
+  {
+    "path": "GPT_SoVITS/pretrained_models/gsv-v5-pretrained/s2Gv5dev.pth",
+    "size": 766385517,
+    "sha256": "16c11fc588a9229a479316a11fc0f518087e79773f5271666a90b39d50460407",
+    "url": "https://huggingface.co/lj1995/GPT-SoVITS/resolve/8f8857563c040d542de108a2c18b0425abd6c9c5/gsv-v5-pretrained/s2Gv5dev.pth"
+  },
+  {
+    "path": "GPT_SoVITS/pretrained_models/gsv-v5-pretrained/s2Gv5turbo.pth",
+    "size": 766406144,
+    "sha256": "287b32a06b7d486f5303ec520468b0728fb01aac8b0f5d86fd5455c9a1d3e022",
+    "url": "https://huggingface.co/lj1995/GPT-SoVITS/resolve/8f8857563c040d542de108a2c18b0425abd6c9c5/gsv-v5-pretrained/s2Gv5turbo.pth"
+  },
+  {
+    "path": "GPT_SoVITS/pretrained_models/gsv-v4-pretrained/vocoder.pth",
+    "size": 57781109,
+    "sha256": "4d611913df7b12d49e8976c944558d2d096816365edfc6c35a9e85b67dd14ed9",
+    "url": "https://huggingface.co/lj1995/GPT-SoVITS/resolve/8f8857563c040d542de108a2c18b0425abd6c9c5/gsv-v4-pretrained/vocoder.pth"
+  },
+  {
+    "path": "GPT_SoVITS/pretrained_models/gsv-v5-pretrained/vocoder.pth",
+    "size": 57761163,
+    "sha256": "b7543c83222aa2105bb4efb56845086bc5f2eeba61243d723ffa062052b3221f",
+    "url": "https://huggingface.co/lj1995/GPT-SoVITS/resolve/8f8857563c040d542de108a2c18b0425abd6c9c5/gsv-v5-pretrained/vocoder.pth"
+  },
+  {
+    "path": "GPT_SoVITS/pretrained_models/models--nvidia--bigvgan_v2_24khz_100band_256x/config.json",
+    "size": 1402,
+    "sha256": "d77e2c96583ca2296ac112a56ec7cc6bd5da4bf7681ceff18448bedc4fcf6512",
+    "url": "https://huggingface.co/lj1995/GPT-SoVITS/resolve/8f8857563c040d542de108a2c18b0425abd6c9c5/models--nvidia--bigvgan_v2_24khz_100band_256x/config.json"
+  },
+  {
+    "path": "GPT_SoVITS/pretrained_models/models--nvidia--bigvgan_v2_24khz_100band_256x/bigvgan_generator.pt",
+    "size": 450088331,
+    "sha256": "6f9c5715550c9d0f11159ceb8935638da5aeb19e27d1e63677632df095e376f5",
+    "url": "https://huggingface.co/lj1995/GPT-SoVITS/resolve/8f8857563c040d542de108a2c18b0425abd6c9c5/models--nvidia--bigvgan_v2_24khz_100band_256x/bigvgan_generator.pt"
+  },
+  {
+    "path": "GPT_SoVITS/pretrained_models/chinese-roberta-wwm-ext-large/tokenizer_config.json",
+    "size": 19,
+    "sha256": "61785aeaba176fba6d6489f27dccfd2ddee6aee2af0e590451cab7d8b57e0874",
+    "url": "https://huggingface.co/hfl/chinese-roberta-wwm-ext-large/resolve/a25cc9e05974bd9687e528edd516f2cfdb3f5db9/tokenizer_config.json"
+  },
+  {
+    "path": "GPT_SoVITS/pretrained_models/chinese-roberta-wwm-ext-large/special_tokens_map.json",
+    "size": 112,
+    "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+    "url": "https://huggingface.co/hfl/chinese-roberta-wwm-ext-large/resolve/a25cc9e05974bd9687e528edd516f2cfdb3f5db9/special_tokens_map.json"
+  },
+  {
+    "path": "GPT_SoVITS/pretrained_models/chinese-roberta-wwm-ext-large/vocab.txt",
+    "size": 109540,
+    "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+    "url": "https://huggingface.co/hfl/chinese-roberta-wwm-ext-large/resolve/a25cc9e05974bd9687e528edd516f2cfdb3f5db9/vocab.txt"
+  },
+  {
+    "path": "runtime/ffmpeg.exe",
+    "size": 52925440,
+    "sha256": "b6a4d917a444790f4c06ada640c1c0c95aecde2f8953ed8d0dfb19352500bfcd",
+    "url": "https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/e6d0c1a17da07c33557852f9dfa2bd44cc75737d/ffmpeg.exe"
+  },
+  {
+    "path": "GPT_SoVITS/pretrained_models/fast_langdetect/lid.176.bin",
+    "size": 131266198,
+    "sha256": "7e69ec5451bc261cc7844e49e4792a85d7f09c06789ec800fc4a44aec362764e",
+    "url": "https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.bin"
+  }
+]
